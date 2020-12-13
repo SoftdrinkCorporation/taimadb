@@ -1,0 +1,38 @@
+{
+  "name": "taimadb",
+  "version": "2.0.0",
+  "description": "A fast, reliable and modern SQL implementation written in JavaScript.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftdrinkCorporation/taimadb.git"
+  },
+  "keywords": [
+    "json",
+    "sql",
+    "db",
+    "database",
+    "softdrink",
+    "klakes",
+    "theklakes",
+    "aidak",
+    "database"
+  ],
+  "author": "Softdrink Corporation",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SoftdrinkCorporation/taimadb/issues"
+  },
+  "homepage": "https://github.com/SoftdrinkCorporation/taimadb#readme",
+  "dependencies": {
+    "bson": "^4.2.2",
+    "fs": "0.0.1-security",
+    "mariadb": "^2.5.2"
+  }
+}
